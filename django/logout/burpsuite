@@ -1,0 +1,51 @@
+GET /logout HTTP/1.1
+Host: learn.a3.in.th
+Cookie: csrftoken=sGFCLKl0ODDe4lAaZ8PRNoO9xHiS7iaz6D8s0j8CAE75XegglDr3nZrI4VJnibVP; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false; openedx-language-preference=th; sessionid="1|g2t6hahcx0ebqgw6jfrart14ou8zahfd|FATCWBQeIgur|IjM0MmNjY2UwZDVjZDVlMDUzMjZmYzAyZmYzMTgzZmU5YzhkMjEwZWI3ZTIxMDNkM2MwNjY5YTkzZDFiZDU3M2Qi:1rdqmQ:zzQ2zqBqynDPm8m__sDr9dV6L0c"; edxloggedin=true; edx-user-info="{\"username\": \"Hall\"\054 \"version\": 1\054 \"enrollmentStatusHash\": \"75002fe48442a02a55971f48cebbe3e4\"\054 \"header_urls\": {\"learner_profile\": \"https://learn.a3.in.th/u/Hall\"\054 \"resume_block\": \"https://learn.a3.in.th/user_api/v1/account/login_session/\"\054 \"logout\": \"https://learn.a3.in.th/logout\"\054 \"account_settings\": \"https://learn.a3.in.th/account/settings\"}}"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://learn.a3.in.th/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+
+GET / HTTP/1.1
+Host: learn.a3.in.th
+Cookie: csrftoken=sGFCLKl0ODDe4lAaZ8PRNoO9xHiS7iaz6D8s0j8CAE75XegglDr3nZrI4VJnibVP; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false; openedx-language-preference=th
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://learn.a3.in.th/logout
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+
+POST /edxphp/lms/TimeLog/logCounterMain HTTP/1.1
+Host: learn.a3.in.th
+Cookie: _counter_CounterMain0=1; csrftoken=sGFCLKl0ODDe4lAaZ8PRNoO9xHiS7iaz6D8s0j8CAE75XegglDr3nZrI4VJnibVP; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false; openedx-language-preference=th
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+X-Csrftoken: sGFCLKl0ODDe4lAaZ8PRNoO9xHiS7iaz6D8s0j8CAE75XegglDr3nZrI4VJnibVP
+X-Requested-With: XMLHttpRequest
+Origin: https://learn.a3.in.th
+Referer: https://learn.a3.in.th/logout
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Content-Length: 0
+Te: trailers
+Connection: close
+

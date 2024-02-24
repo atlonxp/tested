@@ -1,0 +1,80 @@
+"""
+POST /user_api/v1/account/login_session/ HTTP/1.1
+Host: learn.a3.in.th
+Cookie: csrftoken=IMRHPtxuAuSxyoMFRUjDwuRjKzkPHtFSy1EKrPgEZlhAxF4EIEQ81S1f1mmM64hy; sessionid="1|hj7droq2i89tzlnyvbocgu21bbf39asc|NEu7E3WAdYyw|ImIxMzNjNWE1Yzk3Nzk5MjlkMGVmYTQxNzcxN2E0MDlkYzgxNmQyMzQ4NjI3YzgzNTQxZTRlYjYxMGJkNjQ4ZWEi:1rdqP5:_uaNYvmKFGmEyMq78gKyukI4zxQ"; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+X-Csrftoken: IMRHPtxuAuSxyoMFRUjDwuRjKzkPHtFSy1EKrPgEZlhAxF4EIEQ81S1f1mmM64hy
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 54
+Origin: https://learn.a3.in.th
+Referer: https://learn.a3.in.th/login?next=https%3A%2F%2Fstudio.a3.in.th%2Fcms%2FCas%2Fwhoami/lms
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+email=atlonxp%40me.com&password=kongeaw&remember=false
+
+|
+|
+V
+https://studio.a3.in.th/cms/Cas/whoami/lms
+
+GET /cms/Cas/whoami/lms HTTP/1.1
+Host: studio.a3.in.th
+Cookie: experiments_is_enterprise=false; openedx-language-preference=th; PHPSESSID=9m0gut6aa1mrq7e4fd21d4ssd1; sessionid="1|61haxyr9581wlwn1e97khqyuqyimzfh2|uekM6Xybyj6t|ImZmOTdhZjFmMGU0YWI2ZTY3OGMwYzg2YWNmZTM0OTQzZDQzOTJhMGYxNTg3OGUzMDhlOTk4MTc0MWNmZmVkZTIi:1rdqTj:4pk1Tz85e-1e7ve0HBrZMiqnuBQ"; edxloggedin=true; edx-user-info="{\"username\": \"Hall\"\054 \"version\": 1\054 \"enrollmentStatusHash\": \"75002fe48442a02a55971f48cebbe3e4\"\054 \"header_urls\": {\"learner_profile\": \"https://learn.a3.in.th/u/Hall\"\054 \"resume_block\": \"https://learn.a3.in.th/user_api/v1/account/login_session/\"\054 \"logout\": \"https://learn.a3.in.th/logout\"\054 \"account_settings\": \"https://learn.a3.in.th/account/settings\"}}"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://learn.a3.in.th/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+Te: trailers
+Connection: close
+
+|
+|
+V
+GET / HTTP/1.1
+Host: learn.a3.in.th
+Cookie: csrftoken=Akq6YyzYmRKu8AZWwe4NHYghKuS38v7VOHtXL7IJENh0gIvCAJpTcLl7Vkedxy1i; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false; openedx-language-preference=th; sessionid="1|61haxyr9581wlwn1e97khqyuqyimzfh2|uekM6Xybyj6t|ImZmOTdhZjFmMGU0YWI2ZTY3OGMwYzg2YWNmZTM0OTQzZDQzOTJhMGYxNTg3OGUzMDhlOTk4MTc0MWNmZmVkZTIi:1rdqTj:4pk1Tz85e-1e7ve0HBrZMiqnuBQ"; edxloggedin=true; edx-user-info="{\"username\": \"Hall\"\054 \"version\": 1\054 \"enrollmentStatusHash\": \"75002fe48442a02a55971f48cebbe3e4\"\054 \"header_urls\": {\"learner_profile\": \"https://learn.a3.in.th/u/Hall\"\054 \"resume_block\": \"https://learn.a3.in.th/user_api/v1/account/login_session/\"\054 \"logout\": \"https://learn.a3.in.th/logout\"\054 \"account_settings\": \"https://learn.a3.in.th/account/settings\"}}"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://learn.a3.in.th/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+Te: trailers
+Connection: close
+
+|
+|
+V
+POST /edxphp/lms/TimeLog/logCounterMain HTTP/1.1
+Host: learn.a3.in.th
+Cookie: _counter_CounterMain0=1; csrftoken=Akq6YyzYmRKu8AZWwe4NHYghKuS38v7VOHtXL7IJENh0gIvCAJpTcLl7Vkedxy1i; aolFontSize=0; ci_session=69931951d7c9de1e0224c202fbd6be766e7882b8; experiments_is_enterprise=false; openedx-language-preference=th; sessionid="1|61haxyr9581wlwn1e97khqyuqyimzfh2|uekM6Xybyj6t|ImZmOTdhZjFmMGU0YWI2ZTY3OGMwYzg2YWNmZTM0OTQzZDQzOTJhMGYxNTg3OGUzMDhlOTk4MTc0MWNmZmVkZTIi:1rdqTj:4pk1Tz85e-1e7ve0HBrZMiqnuBQ"; edxloggedin=true; edx-user-info="{\"username\": \"Hall\"\054 \"version\": 1\054 \"enrollmentStatusHash\": \"75002fe48442a02a55971f48cebbe3e4\"\054 \"header_urls\": {\"learner_profile\": \"https://learn.a3.in.th/u/Hall\"\054 \"resume_block\": \"https://learn.a3.in.th/user_api/v1/account/login_session/\"\054 \"logout\": \"https://learn.a3.in.th/logout\"\054 \"account_settings\": \"https://learn.a3.in.th/account/settings\"}}"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+X-Requested-With: XMLHttpRequest
+Origin: https://learn.a3.in.th
+Referer: https://learn.a3.in.th/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Content-Length: 0
+Te: trailers
+Connection: close
+"""
